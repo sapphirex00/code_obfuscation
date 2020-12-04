@@ -11,7 +11,6 @@ Author: Sapphirex00
 Contact: sapphired25519@protonmail.com
 Version: 1.2
 */
-
 void spawn(string inbuf)
 {
 	LPSTR command = const_cast<char *>(inbuf.c_str());
