@@ -8,7 +8,6 @@ using namespace std;
 Control Flow-Flattening PoC 
 Version with flattening, bogus jump and junk code
 Author: Sapphirex00
-Contact: sapphired25519@protonmail.com
 Version: 1.2
 */
 void spawn(string inbuf)
