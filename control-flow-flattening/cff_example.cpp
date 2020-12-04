@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include<sstream>
+#include <sstream>
 using namespace std;
 /*
 Control-Flow Flattening PoC 
