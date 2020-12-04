@@ -12,9 +12,9 @@ Author: Sapphirex00
 */
 void spawn(string inbuf)
 {
-	LPSTR command = const_cast<char *>(inbuf.c_str());
-	LPSTARTUPINFOA si  = new STARTUPINFOA();
-	LPPROCESS_INFORMATION pi = new PROCESS_INFORMATION();
+    LPSTR command = const_cast<char *>(inbuf.c_str());
+    LPSTARTUPINFOA si  = new STARTUPINFOA();
+    LPPROCESS_INFORMATION pi = new PROCESS_INFORMATION();
     CreateProcessA(NULL, command, NULL, NULL, TRUE, 0 , NULL, NULL, si, pi);
 }
 
