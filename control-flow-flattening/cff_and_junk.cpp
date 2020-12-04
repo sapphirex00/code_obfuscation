@@ -5,7 +5,7 @@
 #include<sstream>
 using namespace std;
 /*
-Control Flow-Flattening PoC 
+Control-Flow Flattening PoC 
 Version with flattening, bogus jump and junk code
 Author: Sapphirex00
 Version: 1.2
