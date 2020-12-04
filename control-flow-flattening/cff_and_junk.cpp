@@ -220,7 +220,7 @@ void call_std()
 
 int main()
 {
-    call_std();
-    call_cff();
+    call_std(); //standard function flow
+    call_cff(); //obfuscated function flow
     return 0;
 }
